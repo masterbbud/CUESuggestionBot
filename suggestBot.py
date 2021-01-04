@@ -19,7 +19,7 @@ from google.auth.transport.requests import Request
 ##make it so whatever format it is in will still work
 
 client = discord.Client()
-TOKEN = 'Nzg3NTMwMTUwMDE4Njc4Nzk3.X9WSmw.XfcUi7hayzWAeDNN_h5ufgOidnc'
+TOKEN = open("TOKEN.txt").read()
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 spreadsheetID_Form = '1f2dYZzk6dLwbwJ4ycfGSqRS7GLEe2gg59JWaoeGtxeg'
